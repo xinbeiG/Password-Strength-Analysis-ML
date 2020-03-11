@@ -32,7 +32,7 @@ def displayResult(lst, res):
             label = "fair"
         elif res[i] == 2:
             label = "hard"
-        print(f"{lst[i]}: {label}",)
+        print(f"{lst[i]}: {label}")
 
 
 # load the model and scaler variable from disk
