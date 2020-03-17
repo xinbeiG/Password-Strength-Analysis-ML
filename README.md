@@ -3,7 +3,7 @@ Password Strength Analysis using Machine Learning technique
 
 ### Dataset
 The passwords used in our analysis are from [000webhost leak](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/000webhost.txt) that is available online. But the labels of this dataset used for model development has two versions, the difference lies in how it is labelled.
-- V1: Origin dataset from Kaggle [here](https://www.kaggle.com/bhavikbb/password-strength-classifier-dataset)
+- V1: Original dataset from Kaggle [here](https://www.kaggle.com/bhavikbb/password-strength-classifier-dataset)
 - V2: Using [zxcvbn](https://github.com/XinbeiGong/Password-Strength-Analysis-ML.git) and [zxcvbn-python](https://github.com/dwolfhub/zxcvbn-python) to relabel all passwords (this tool based on how many times it need to crack a given password)
 
 ### Model
